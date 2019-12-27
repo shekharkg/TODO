@@ -7,7 +7,7 @@ import com.shekharkg.tml_todo.extension.toDateTime
 
 @Entity
 data class ToDoEntity(
-    @PrimaryKey(autoGenerate = true) val uid: Int,
+    @PrimaryKey(autoGenerate = true) val uid: Int = 0,
     @ColumnInfo(name = "title") val title: String,
     @ColumnInfo(name = "description") val description: String,
     @ColumnInfo(name = "timestamp") val timeStamp: Long

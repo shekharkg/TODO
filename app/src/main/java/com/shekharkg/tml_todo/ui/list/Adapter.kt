@@ -1,4 +1,4 @@
-package com.shekharkg.tml_todo.ui
+package com.shekharkg.tml_todo.ui.list
 
 import android.view.LayoutInflater
 import android.view.View

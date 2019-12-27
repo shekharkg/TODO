@@ -1,8 +1,8 @@
-package com.shekharkg.tml_todo
+package com.shekharkg.tml_todo.utils
 
 import android.app.Application
 import com.shekharkg.tml_todo.room.Repository
-import com.shekharkg.tml_todo.ui.ToDoViewModelFactory
+import com.shekharkg.tml_todo.ui.list.ToDoViewModelFactory
 
 object InjectorUtils {
 

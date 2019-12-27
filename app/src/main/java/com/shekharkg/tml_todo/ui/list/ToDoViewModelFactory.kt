@@ -1,4 +1,4 @@
-package com.shekharkg.tml_todo.ui
+package com.shekharkg.tml_todo.ui.list
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
